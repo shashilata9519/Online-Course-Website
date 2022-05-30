@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <a class="navbar-brand fs-2 ms-3" href="#">
           <img src="img/logo.jpg" alt="mini" width="50" height="40" class="d-inline-block align-text-top me-1" />
@@ -50,26 +50,32 @@
             </li>
            
           </ul>
-          <form class="d-flex ">
+          
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-warning fs-6 ms-5 text-white h-login" data-bs-toggle="modal"
+            <button type="button" class="btn btn-warning fs-6 ms-5 text-white " data-bs-toggle="modal"
               data-bs-target="#exampleModal">
               Login
             </button>
+           
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="exampleModal"  aria-labelledby="exampleModalLabel"
               aria-hidden="true">
               <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <div class="modal-content ">
+
+                  <div class="modal-header  bg-warning text-white">
+                    <h5 class="modal-title text-center" >Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+
                   <div class="modal-body">
+                   
                     <input type="email" class="form-control" placeholder="Email" />
                     <hr />
                     <input type="password" class="form-control" placeholder="Password" />
-                  </div>
+                  </div> 
+
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                       Close
@@ -82,8 +88,11 @@
               </div>
             </div>
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-warning ms-4 fs-6 text-white h-sign" data-bs-toggle="modal"
+        
+            
+            <!-- Modal -->
+           
+            <button type="button" class="btn btn-warning ms-4 fs-6 text-white " data-bs-toggle="modal"
               data-bs-target="#exampleModal1">
               Sign Up
             </button>
@@ -93,16 +102,19 @@
               aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header  bg-warning text-white">
                     <h5 class="modal-title" id="exampleModalLabel">
                       Sign Up
+
                     </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    
                   </div>
                   <div class="modal-body">
                     <input type="email" class="form-control" placeholder="Email" />
                     <hr />
                     <input type="text" class="form-control" placeholder="Username" />
-                    <hr />
+                   <hr>
                     <input type="password" class="form-control" placeholder="Password" />
                   </div>
                   <div class="modal-footer">
@@ -113,7 +125,7 @@
                 </div>
               </div>
             </div>
-          </form>
+          
         </div>
       </div>
     </nav>
@@ -407,23 +419,14 @@
       </div>
       <div class="row  m-auto">
         <div class="col-lg-3 col-sm my-3">
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/BdO1sPdfxSQ" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/6j7Sl7Eghwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
         <div class="col-lg-3 col-sm my-3">
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/HawDBgG7JbY" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/-x7UpUwkkPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-lg-3 col-sm my-3">
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/VofIE5x45ic" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/Hnil5cRXNXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
 
@@ -621,9 +624,13 @@
     <div class="container-fluid">
       <div class="icons">
         <i class="fa-solid fa-phone mx-4"></i>
-        <i class="fa-solid fa-envelope mx-4"></i>
-        <i class="fa-brands fa-linkedin-in mx-4"></i>
-        <i class="fa-brands fa-github-square mx-2"></i>
+        <a href="mailto:shashilata9519@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope mx-4 "></i></i
+              ></a>
+              <a href="https://www.linkedin.com/in/shashi-lata/" target="_blank"><i class="fa-brands fa-linkedin-in mx-4"></i></a>
+        
+        <a href="https://github.com/shashilata9519" target="_blank"><i class="fa-brands fa-github-square mx-2"></i></a>
+        
       </div>
       <div class="copy">
         <h4>Copyright @ | by Shashi Lata | </h4>
